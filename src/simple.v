@@ -20,7 +20,6 @@
 module simple(
 	      input [2:0]  a,
 	      output reg [6:0] result);
-   
 // add your code here
 	always @(*) begin
 		case (a)
